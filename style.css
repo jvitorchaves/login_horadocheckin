@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+
+input:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+input:focus:-ms-input-placeholder {  
+   color: transparent;  
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.fa-brands{
+    color: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #0B1018 ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 30px 0px 30px;
+    min-width: 405px;
+}
+
+.cabecalho .logo a{
+    color: #fff;
+    
+}
+.cabecalho #visited{
+    padding-bottom: 33px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #172031;
+}
+img{
+    height: 40px;
+    border-radius: 50%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.fa-user{
+    color: #fff;
+    font-size: 20px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+}
+.cabecalho li a{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+.cabecalho li a:hover{
+    background-color: #172031;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #172031;
+
+}
+
+.filha{
+    width: 300px;
+    height: 280px;
+        justify-content: space-between;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px 20px 20px 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.filha h1{
+    color: white;
+    font-size: 40px;
+}
+
+
+.barra{
+    border-bottom: 1px solid white;
+    width: 190px;
+}
+
+.acessos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-links{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icons-links .fa-facebook:hover{
+    color: blue;
+}
+.icons-links .fa-whatsapp:hover{
+    color: green;
+}
+.icons-links .fa-google:hover{
+    color: red;
+}
+
+.icons-links a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 8px;
+
+
+}
+form input{
+    background: transparent;
+    outline: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    color: #fff;
+    font-weight: 100px;
+    padding: 5px;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 12px;
+    opacity: 25%;
+}
+.filha .enviar{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #172031;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 1s;
+    margin-right: auto;
+
+  
+}
+.filha .enviar:hover{
+    background-color: white;
+    color: #172031;
+}
+
+form a{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    margin-left: auto;
+}
+  
+form a:hover{
+    color: grey;
+}
+
